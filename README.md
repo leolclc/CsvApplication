@@ -1,6 +1,6 @@
 # CsvApplication
 ### Take Home Test
-The purpose of this test is to evaluate your skills in Fullstack, Backend, and/or Frontend development. You will be required to build a web application that allows users to load a CSV file with preformatted data and display the data as cards on the website. The application should also include a search bar that allows users to search for data within the loaded CSV file.
+The purpose of this test is to evaluate your skills in Backend. You will be required to build a web application that allows users to load a CSV file with preformatted data and display the data as cards on the website. The application should also include a search bar that allows users to search for data within the loaded CSV file.
 
 ## Requirements
 An endpoint that allows the frontend to load the CSV file.
@@ -11,7 +11,6 @@ Appropriate error handling for invalid search queries or other errors.
 ## Instructions
 You have 48 hours to complete the test.
 Your solution should include automated tests for both the frontend and backend components.
-You should submit your solution as a PRIVATE GitHub repository and invite diego.tsuyoshi@shawandpartners.com as a collaborator.
 The backend should be implemented as a RESTful API using Node. (Try not to use an opinionated framework such as Adonis or Nest).
 The backend must include the following endpoints:
 [POST /api/files] An endpoint that accepts a CSV file upload from the frontend and stores the data in a database or a data structure.
